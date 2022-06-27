@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		BD509C2A286A015700B7D80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD509C29286A015700B7D80C /* AppDelegate.swift */; };
 		BD509C2C286A015700B7D80C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD509C2B286A015700B7D80C /* SceneDelegate.swift */; };
-		BD509C2E286A015700B7D80C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD509C2D286A015700B7D80C /* ViewController.swift */; };
 		BD509C31286A015700B7D80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD509C2F286A015700B7D80C /* Main.storyboard */; };
 		BD509C34286A015700B7D80C /* todoList2022W2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD509C32286A015700B7D80C /* todoList2022W2.xcdatamodeld */; };
 		BD509C36286A015A00B7D80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD509C35286A015A00B7D80C /* Assets.xcassets */; };
 		BD509C39286A015A00B7D80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD509C37286A015A00B7D80C /* LaunchScreen.storyboard */; };
+		BD509C41286A047100B7D80C /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD509C40286A047100B7D80C /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD509C26286A015700B7D80C /* todoList2022W2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList2022W2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD509C29286A015700B7D80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD509C2B286A015700B7D80C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD509C2D286A015700B7D80C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD509C30286A015700B7D80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD509C33286A015700B7D80C /* todoList2022W2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoList2022W2.xcdatamodel; sourceTree = "<group>"; };
 		BD509C35286A015A00B7D80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD509C38286A015A00B7D80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD509C3A286A015A00B7D80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD509C40286A047100B7D80C /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				BD509C29286A015700B7D80C /* AppDelegate.swift */,
 				BD509C2B286A015700B7D80C /* SceneDelegate.swift */,
-				BD509C2D286A015700B7D80C /* ViewController.swift */,
 				BD509C2F286A015700B7D80C /* Main.storyboard */,
+				BD509C40286A047100B7D80C /* ToDoTableViewController.swift */,
 				BD509C35286A015A00B7D80C /* Assets.xcassets */,
 				BD509C37286A015A00B7D80C /* LaunchScreen.storyboard */,
 				BD509C3A286A015A00B7D80C /* Info.plist */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD509C34286A015700B7D80C /* todoList2022W2.xcdatamodeld in Sources */,
-				BD509C2E286A015700B7D80C /* ViewController.swift in Sources */,
+				BD509C41286A047100B7D80C /* ToDoTableViewController.swift in Sources */,
 				BD509C2A286A015700B7D80C /* AppDelegate.swift in Sources */,
 				BD509C2C286A015700B7D80C /* SceneDelegate.swift in Sources */,
 			);
